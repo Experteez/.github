@@ -18,6 +18,15 @@ Terdapat 2 repository dalam github organization ini, yaitu Experteez-Frontend da
 -   `test`: (adding missing tests, refactoring tests; no production code change)
 -   `chore`: (updating grunt tasks etc; no production code change)
 
+## How to Run Locally (Backend)
+
+1. Clone repository Experteez-Backend (branch `main`)
+2. cd ke root folder
+3. Buka folder project di Visual Studio Code (`code .` in CLI)
+4. Buka terminal dan run `go mod vendor`
+5. Run `go run main.go` untuk menjalankan server
+6. Buka browser dan akses`http://localhost:8080`
+   
 ## How to Run Locally (Frontend)
 
 1. Clone repository Experteez-Frontend (branch `main`)
@@ -27,14 +36,6 @@ Terdapat 2 repository dalam github organization ini, yaitu Experteez-Frontend da
 5. Run `npm run dev` untuk menjalankan server
 6. Buka browser dan akses`http://localhost:3000`
 
-## How to Run Locally (Backend)
-
-1. Clone repository Experteez-Backend (branch `main`)
-2. cd ke root folder
-3. Buka folder project di Visual Studio Code (`code .` in CLI)
-4. Buka terminal dan run `go mod vendor`
-5. Run `go run main.go` untuk menjalankan server
-6. Buka browser dan akses`http://localhost:8080`
 
 ### Or if you guys want to run it using docker
 
