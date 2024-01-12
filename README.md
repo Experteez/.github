@@ -1,6 +1,6 @@
 # <h1 align="center"> Experteez - Frontend and Backend - Hacker Stage 2 Hackfest 2024 ✨ </h1>
 
-## repository
+## Repository
 Terdapat 2 repository dalam github organization ini, yaitu Experteez-Frontend dan Experteez-Backend.
 
 ## Branching
